@@ -177,10 +177,13 @@ body{
     line-height: 85px;
 }
 
+.wraper__image{}
+
 .wraper__title .wraper__text{
+    max-width: 1025px; 
+    min-width: 400px;
     border: 100px solid transparent;
-    border-bottom: -100px solid blue;
-    border-left: 100px solid blue;
+    
 }
 
 .wraper__title{
