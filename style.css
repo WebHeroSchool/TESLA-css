@@ -1,216 +1,381 @@
 body{
-	font-family: Montserrat;
-	font-style: normal;
+    border: dashed 1px red;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
 }
 
-.menu {
-	display: flex;
-    justify-content: space-between;
+.wrap{
+    border: dashed 1px red;
+    width: 80%;
+    margin: 0 auto;
+}
+   
+
+.header{
+    display: inline-flex;
     align-items: center;
-    width: 1337.28px;
-    height: 51px;
-    left: 42.72px;
-    top: 24px;
+    width: 100%;
 }
 
-.header__menu_logo{
-    width: 166px;
-    height: 51px;
-    left: 42.72px;
-    top: 24px;
-}
+.header__logo{
+    background: url(img/Tesla-logo.svg) no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 42px;
+    padding: 24px;
+} 
 
-.header__menu_link--active{
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 62px 18px 466.86px 40px;
-	color: #E51937;
+.header__menu_nav{
+
 }
 
 .header__menu{
-	font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-	color: #000000;
+    padding: 0;
+    width: 100%;
+    height: 15px;
 }
 
 .header__menu_link{
+    display: inline-flex;
+}
+
+.menu__link--active{
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 18px;
+   color: #E51937;
+   margin-left: 219px;
+}
+
+.menu__link{
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    text-decoration: none;
+    margin-left: 59px;
 }
 
-.header__menu .header__menu_link{
+.menu__link_model{
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    text-decoration: none;
+    margin-left: 21px;
 }
 
-.header__menu .header__menu_link .additional{
+.menu__link_roadster{
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    text-decoration: none;
+    margin-left: 40px;
 }
 
-.header__menu_store{
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 18px;
-	left: 1177px;
-	top: 40px;
-	color: #000000;
-}
-
-.header__menu_enter{
+.menu__link_energy{
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    text-decoration: none;
+    margin-left: 41px;
 }
+
+.header__menu_conten{
+    display:  inline-flex;
+}
+
+.menu__conten_link{
+    display: inline-flex;
+}
+
+.menu__link_store{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 218px;
+}
+
+.menu__link_enter{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.menuBurger{
+    /*border: dashed 1px green;*/
+    background: url(img/menuBurger.svg) no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 15px;
+    padding: 0 41px;
+    cursor: pointer;
+}
+
+.section{
+     margin: 0;
+ }
 
 .section__title{
-	display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     font-weight: 600;
     font-size: 90px;
     line-height: 110px;
     color: #000000;
+    width: 100%;
+    height: 102px;
+    margin-top: 38px;
+    margin-bottom: 0;
 }
 
 .section__subtitle{
-	display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    width: 100%;
+    height: 19px;
+    margin: 0;
 }
 
-.section__image_text{}
+.section__image_text{
+    background: url(img/Tesla-text.svg) no-repeat;
+    position: absolute;
+    width: 1514px;
+    height: 467px;
+    top: 134px;
+    margin: 0;
+}
 
-.section__image_auto{}
+.section__image_auto{
+    background: url(img/tesla-auto.svg) no-repeat;
+    background-position: center;
+    width: 968px;
+    height: 450px;
+    margin: 23px 198px 0;
+}
 
 .article{
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 56%;
+    height: 122px;
+    margin: auto;
 }
 
-.section__article_image{}
+.article__image_speed{
+    background: url(img/Speed.svg) no-repeat;
+    background-position: center;
+    width: 52px;
+    height: 90px;
+}
 
-.section__article_text{
+.article__speed{
     font-weight: 600;
     font-size: 35px;
     line-height: 43px;
     color: #000000;
+    width: 154px;
+    height: 56px;
+    margin: 28px 11px;
 }
 
-.section__article_span{
+.article__text_span{
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: #000000;
+    width: 37px;
+    height: 25px;
 }
 
-.section__article_small{
-    font-weight: normal;
+.article__text_small{
+    display: flex;
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+    width: 80px;
+    height: 15px;
+    margin: 0;
 }
 
-.section__article .section__article_image{}
+.article_image_distance{
+    background: url(img/distance.svg) no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 60px;
+    margin: 34px 0;
+}
 
-.section__article .section__article_text{
+.article__distance{
     font-weight: 600;
-    font-size: 35px;
+    font-size: 36px;
     line-height: 43px;
     color: #000000;
-
+    width: 140px;
+    height: 58px;
+    margin-top: 28px;
 }
 
-.section__article_span .additional{
+.article__text_span.additional{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     color: #000000;
+    width: 29px;
+    height: 25px;
 }
 
-.section__article_small .additional{
+.article__text_small.additional{
+    display: flex;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 15px;
     color: #000000;
+    width: 67px;
+    height: 15px;
+    padding: 0 3px;
 }
 
-.section__article_test{
+.test{
+    display: flex;
+    justify-content: center;
+    width: 21%;
+    height: 89px;
+    margin: 5px 14px;
+}
+
+.article__image_test{
+    background: url(img/test.svg) no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 22px;
+    margin-top: 42px;
+    margin-right: 42px;
+}
+
+.article__test{
+    display: flex;
+    justify-content: center;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
-    text-align: center;
     text-transform: uppercase;
     color: #000000;
+    width: 89px;
+    height: 18px;
+    margin: 3px 26px;
 }
 
-.section__article_btn{
+.article__text_btn{
+    border: 2px solid #E51937;
+    box-sizing: border-box;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
+    width: 160px;
+    height: 40px;
     color: #E51937;
+    margin-left: 27px;
+    margin-top: 37px;
 }
 
-.article__link{
-	 border: 30px solid transparent;
-     border-top: 30px solid #E51937;
+.wraper__menu{
+    display: flex;
+    background: url(img/menu.svg) no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 14px;
+    margin: auto;
+}
+
+.wraper{
+    border: dashed 1px red;
+    background: url(img/tesla-model-s-cockpit.svg) no-repeat;
+    background-position: 0% 100%;
+    display: flex;
+    width: 100%;
+    height: 936px;
 }
 
 .wraper__header{
     font-weight: 600;
     font-size: 70px;
     line-height: 85px;
+    color: #e51937;
+    margin: 100px 0 0 77px;
+    width: 24%;
 }
 
-.wraper__image{}
-
-.wraper__title .wraper__text{
-    max-width: 1025px; 
-    min-width: 400px;
-    border: 100px solid transparent;
-    
+.conten{
+    background: #e51937;
+    width: 440px;
+    height: 900px;
+    margin-left: 40%;
+    margin-top: 36px;
+    /*padding: 47px 0px 0px 46px;*/
 }
 
-.wraper__title{
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
-    /*color: #FFFFFF;*/
-}
-
-.wraper__text{
+.wrper__conten{
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    /*color: #FFFFFF;*/
+    text-align: left;
+    color: #FFFFFF;
+    /*padding: 0;*/
+}
+
+.wraper__title{
+        font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    padding: 22px 53px 12px;
+    margin-bottom: 0;
+}
+
+.wraper__text{
+    padding: 0px 83px 0px 54px;
+    margin: 0;
+    width: 316px;
+    height: 206px;
+}
+
+.wraper__info{
+    border: dashed 1px #FFFFFF;
 }
 
 .wraper__list{
-    font-size: 20px;
+    font-size: 20px;x;
+    height: 206px;
     line-height: 24px;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
+    /*margin: 0;*/
 }
 
-.wraper__item{
+.wraper__items_dyuym{
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
+}
+
+.wraper__items_litrov{
+
 }
 
 .wraper__excerpt{
@@ -219,7 +384,7 @@ body{
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 
 }
 
@@ -228,41 +393,58 @@ body{
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .section__sidebar_subject{
     font-size: 30px;
     line-height: 37px;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .section__sidebar{
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
   }
 
   .section__subtitle_text{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    /*color: #FFFFFF*/
+    color: #FFFFFF
   }
+
+.sidebar__text{
+    font-weight: bold;
+    font-size: 17px
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sidebar__text_small{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
 
   .section__sidebar_list{
     font-weight: 600;
     font-size: 50px;
     line-height: 61px;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
   }
 
   .section__sidebar_item{
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
   }
 
   .section__sidebar_excerpt{
@@ -271,7 +453,7 @@ body{
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
   }
 
   .section__sidebar_btn{
@@ -280,5 +462,5 @@ body{
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
-  }
+    color: #FFFFFF;
+}

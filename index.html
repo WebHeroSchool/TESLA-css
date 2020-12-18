@@ -8,71 +8,115 @@
   <link rel="stylesheet"  href="fonts.css">
 </head>
 <body>
-  <header class="header">
-  	<nav class="menu">
-  	  <a class="header__menu_logo" href="#"><img src="./img/Tesla-Wordmark-Red.png"></a>	
-  	  <a class="header__menu_link--active" href="#">Model S</a>
-  	  <a class="header__menu" href="#">Model X</a>
-  	  <a class="header__menu_link" href="#">Model 3</a>
-  	  <a class="header__menu header__menu_link" href="#">Roadster</a>
-  	  <a class="header__menu header__menu_link additional" href="#">Energy</a>
-  	  <a class="header__menu_store" href="#">Магазин</a>
-  	  <a class="header__menu_enter" href="#">Войти</a>
-  	  <a class="menuBurger">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
-          <path d="M1.5 1.76471H22.5C22.9999 1.76471 24 0.487058 24 0C24 0 23.5943 8.40983e-06 23.0943 8.40983e-06H0.90566C0.405736 8.40983e-06 0 0 0 0C0 0.487058 1.00008 1.76471 1.5 1.76471Z" fill="#E51937"/>
-          <path d="M1.5 8.43751H22.5C22.9999 8.43751 24 7.15985 24 6.67279C24 6.67279 23.5943 6.6728 23.0943 6.6728H0.90566C0.405736 6.6728 0 6.67279 0 6.67279C0 7.15985 1.00008 8.43751 1.5 8.43751Z" fill="#E51937"/>
-          <path d="M1.5 15H22.5C22.9999 15 24 13.7223 24 13.2353C24 13.2353 23.5943 13.2353 23.0943 13.2353H0.90566C0.405736 13.2353 0 13.2353 0 13.2353C0 13.7223 1.00008 15 1.5 15Z" fill="#E51937"/>
-        </svg>
-      </a>
-    </nav>
-  </header>
-  <section class="section">
-    <h1 class="section__title">
-      Model S  
-    </h1>
-    <h5 class="section__subtitle">
-      Добро пожаловать в будущее!
-    </h5>
-    <img clas="section__image_text" src="./img/Tesla-Wordmark-Red-1.png">
-    <img clas="section__image_auto" src="./img/tesla-png-tesla-png-hd-1636.png">
-      <article class="article">
-      	<img class="section__article_image" src="./img/Group.png">
-        <p class="section__article_text">2.7</p>
-        <span class="section__article_span">сек</span>
-        <p class="section__article_small">0-100 км/ч</p>
-        <img class="section__article section__article_image" src="./img/Road icon.png">
-        <p class="section__article section__article_text">632</p>
-        <span class="section__article_span additional">км</span>
-        <p class="section__article_small additional">запас хода</p>
-        <img class="section__article_image additional" src="./img/steering-wheel.png">
-        <p class="section__article_test" href="#">тест драйв</p>
-        <button class="section__article_btn">заказать</button>
-        <p class="article__link"></p>
-      </article>
-  </section>
-  <div class="wraper">
-    <h1 class="wraper__header">
-      Model S
-    </h1>	
-    <img class="wraper__image" src="./img/2013-tesla-model-s-cockpit.png">
-      <h3 class="wraper__title">
-      	Будущее вождения
-      </h3>
-      <p class="wraper__text">
-      	Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
-      </p>
-      <p class="wraper__list">17 дюймов</p> 
-      <p class="wraper__item">Большой дисплей</p>
-      <p class="wraper__list">Беспроводное обновление ПО</p>
-      <p class="wraper__item">Повышенная функциональность</p>
-      <p class="wraper__list">894</p>
-      <span class="wraper__items">литров</span>
-      <p class="wraper__item">Объем грузового пространства</p>
-      <p class="wraper__excerpt">узнать больше</p>
-      <button class="wraper__btn">заказать</button>
-  </div>
-  <section>
+  <div class="wrap">
+    <header class="header">
+      <div class="header__logo"></div>
+        <nav class="header__menu_nav">
+          <ul class="header__menu">
+            <li class="header__menu_link"><a class="menu__link--active" href="#">Model S</a></li>
+            <li class="header__menu_link"><a class="menu__link" href="#">Model X</a></li>
+            <li class="header__menu_link"><a class="menu__link_model" href="#">Model 3</a></li>
+            <li class="header__menu_link"><a class="menu__link_roadster" href="#">Roadster</a></li>
+            <li class="header__menu_link"><a class="menu__link_energy" href="#">Energy</a></li>
+          <div class="header__menu_conten">
+            <li class="menu__conten_link"><a class="menu__link_store" href="#">Магазин</a></li>
+            <li class="menu__conten_link"><a class="menu__link_enter" href="#">Войти</a></li>
+            <a class="menuBurger"></a>
+          </div>
+          </ul>
+        </nav>   
+    </header>
+    <section class="section">
+      <h2 class="section__title">
+        Model S  
+      </h2>
+      <h5 class="section__subtitle">
+        Добро пожаловать в будущее!
+      </h5>
+      <p class="section__image_text"></p>
+      <p class="section__image_auto"></p>
+        <article class="article">
+          <p class="article__image_speed"></p>
+            <div class="article__speed"> 
+                2,7
+              <span class="article__text_span">
+                сек
+              </span>
+              <p class="article__text_small">
+                0-100 км/час
+              </p>
+            </div>
+            <p class="article_image_distance"></p>
+              <div class="article__distance">
+                632
+              <span class="article__text_span additional">
+                км
+              </span>
+              <p class="article__text_small additional">
+                запас хода
+              </p>
+              </div>
+              <div class="test">
+                <p class="article__image_test">
+                  <span class="article__test">
+                    тест драйв
+                  </span>
+                </p>
+              </div>
+                <button class="article__text_btn">
+                  заказать
+                </button>
+        </article>
+        <a class="wraper__menu"></a>
+    </section>
+    <div class="wraper">
+      <h2 class="wraper__header">
+        Model S
+      </h2>
+      <aside class="conten">	
+        <div class="wrper__conten">
+          <h3 class="wraper__title">
+      	    Будущее вождения
+          </h3>
+            <p class="wraper__text">
+      	      Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном.
+              Усовершенствованная шумовая инженерия создает динамику звука,
+              сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
+            </p>
+        </div>
+        <div class="wraper__info">
+          <p class="wraper__list">17
+            <span class="wraper__items_dyuym">
+              дюймов
+            </span>
+          </p>
+          <p class="wraper__item">
+            Большой дисплей
+          </p>
+          <p class="wraper__list">
+            Беспроводное обновление ПО
+          </p>
+          <p class="wraper__item">
+            Повышенная функциональность
+          </p>
+          <p class="wraper__list">894
+            <span class="wraper__items_litrov">
+              литров
+            </span>
+          </p>
+          <p class="wraper__item">
+            Объем грузового пространства
+          </p>
+          <p class="wraper__excerpt">
+            узнать больше
+          </p>
+          <button class="wraper__btn">
+            заказать
+          </button>
+        </div>
+      </aside>
+    </div>
+    <section>
     <img class="section__img" src="./img/Model S.png">
     <img class="section__pic" src="./img/Car frame group.png">
     <h1 class="section__sidebar_subject">
@@ -84,14 +128,30 @@
     <h3 class="section__subtitle_text">
       Оценка защиты: 
     </h3>
-    <p class="section__sidebar_text">
-    	
+    <p class="sidebar__text">
+      Спереди
+    </p>
+    <p class="sidebar__text">
+      Сбоку
+    </p>
+    <p class="sidebar__text">
+      Сбоку
+    <span class="sidebar__text_small">
+      (стойка)
+    </span>
+    </p>
+    <p class="sidebar__text">
+      ВОДИТЕЛЬ
+    </p>
+    <p class="sidebar__text">
+      ПАССАЖИР
     </p>
     <p class="section__sidebar_list">5 звезд</p>
     <p class="section__sidebar_item">безопасности</p>
     <p class="section__sidebar_excerpt">УЗНАТЬ БОЛЬШЕ</p>
     <button class="section__sidebar_btn">заказать</button>
   </section>
+  </div>
 </body>
 <footer>
   <img class="footer__image" src="./img/Group 2.png">
