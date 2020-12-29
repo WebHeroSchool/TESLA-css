@@ -144,7 +144,7 @@ body{
     align-content: center;
     font-weight: 500;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 13px;
     color: #000000;
     width: 100%;
     height: 19px;
@@ -304,7 +304,6 @@ body{
 }
 
 .wraper{
-    border: dashed 1px red;
     background: url(img/tesla-model-s-cockpit.svg) no-repeat;
     background-position: 0% 100%;
     display: flex;
@@ -327,140 +326,347 @@ body{
     height: 900px;
     margin-left: 40%;
     margin-top: 36px;
-    /*padding: 47px 0px 0px 46px;*/
 }
 
 .wrper__conten{
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: left;
     color: #FFFFFF;
-    /*padding: 0;*/
 }
 
 .wraper__title{
-        font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
-    color: #FFFFFF;
-    padding: 22px 53px 12px;
-    margin-bottom: 0;
-}
-
-.wraper__text{
-    padding: 0px 83px 0px 54px;
-    margin: 0;
-    width: 316px;
-    height: 206px;
-}
-
-.wraper__info{
-    border: dashed 1px #FFFFFF;
-}
-
-.wraper__list{
-    font-size: 20px;x;
-    height: 206px;
-    line-height: 24px;
-    color: #FFFFFF;
-    /*margin: 0;*/
-}
-
-.wraper__items_dyuym{
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #FFFFFF;
-}
-
-.wraper__items_litrov{
-
-}
-
-.wraper__excerpt{
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
-}
-
-.wraper__btn{
-    font-size: 13px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.section__sidebar_subject{
-    font-size: 30px;
-    line-height: 37px;
-    color: #FFFFFF;
-}
-
-.section__sidebar{
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FFFFFF;
-  }
-
-  .section__subtitle_text{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    color: #FFFFFF
-  }
+    color: #FFFFFF;
+    padding: 49px 0 10px 52px;
+    margin: 0;
+}
 
-.sidebar__text{
-    font-weight: bold;
-    font-size: 17px
-    line-height: 21px;
-    text-transform: uppercase;
+.wraper__text{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 72px 0 52px;
+    margin: 0;
+}
+
+.wraper__info{
+    display: inline-block;
+    width: 400px;
+    padding: 0 0 0 46px;
+    margin: 7px 0 0 0;
+}
+
+.wraper__image_dyuym{
+    background: url(img/dyuym.svg) no-repeat;
+    display: inline-block;
+    width: 36px;
+    height: 53px;
+    padding: 0;
+    margin: 63px 0 0 8px;
+}
+
+.wraper__list_dyuym{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+    padding: 51px 206px 0 0;
+    float: right;
+}
+
+.wraper__items_dyuym{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
     color: #FFFFFF;
 }
 
-.sidebar__text_small{
+.wraper__item_dysplay{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    float: revert;
+}
+
+.wraper__image_wireless{
+    display: inline-block;
+    background: url(img/wireless.svg) no-repeat;
+    width: 44px;
+    height: 34px;
+    margin: 48px 0 0 4px;
+}
+
+.wraper__list_wireless{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 173px;
+    height: 36px;
+    float: right;
+    padding: 0 160px 0 0;
+    margin: 34px 0 0;
+}
+
+.wraper__item_wireless{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    width: 166px;
+    height: 30px;
+    padding: 3px 0;
+    margin: 0;
+}
+
+.wraper__image_litrov{
+    background: url(img/litrov.svg) no-repeat;
+    width: 36px;
+    height: 52px;
+    float: left;
+    padding: 0;
+    margin: 54px 0 0 8px;
+}
+
+.wraper__list_litrov{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+    padding: 42px 0 0 24px;
+}
+
+.wraper__items_litrov{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.wraper__item_volume{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 13px;
+    color: #FFFFFF;
+    width: 158px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.wraper__image_excerpt{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #E51937;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 176px 0 0 51px;
+}
+
+.wraper__info_excerpt{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    float: left;
+    margin: 180px 0px 0px 7px;
+}
+
+.wraper__btn{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #E51937;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 160px;
+    height: 40px;
+    float: right;
+    margin: 170px 43px 0 0;
+}
+
+.aside__protection_car{
+    background: url(img/Car.svg) no-repeat;
+    background-position: 0% 100%;
+    width: 72%;
+    height: 540px;
+    float: right;
+    padding: 0px 0 0px 0;
+    margin: 0;
+}
+
+.aside__protection_fon{
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 244px;
+    color: #E51937;
+    float: right;
+    padding: 97px 0px 0 0;
+    margin: 0;
+    opacity: 0.1;
+}
+
+.aside__protection{
+    border: dashed 1px red;
+    background: #e51937;
+    width: 440px;
+    height: 900px;
+    margin: 0;
+}
+
+.aside__protection_subject{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    width: 316px;
+    height: 74px;
+    color: #FFFFFF;
+    padding: 50px 0 0 54px;
+    margin: 0;
+}
+
+.aside__protection_sidebar{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    width: 316px;
+    height: 134px;
+    color: #FFFFFF;
+    padding: 10px 54px;
+    margin: 0;
+  }
+
+  .aside__protection_text{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    padding: 41px 0 0 54px;
+    margin: 0;
+}
+
+.aside__protection_stars{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 24px 47px;
+}
+
+.protection__stars{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 6px;
+    margin: 0;
+}
+
+.stars{
+    float: right;
+    width: 155px;
+    height: 25px;
+    line-height: 37px;
+    font-size: 13px;
+    padding: 4px 31px;
+    margin: 0;
+}
+
+.protection__stars_small{
     font-weight: bold;
     font-size: 10px;
     line-height: 12px;
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
 
-  .section__sidebar_list{
+.aside__protection_shield{
+    background: url(img/shield.svg) no-repeat;
+    width: 62px;
+    height: 74px;
+    float: left;
+    margin: 79px 0 0 65px;
+}
+
+  .aside__protection_list{
     font-weight: 600;
     font-size: 50px;
-    line-height: 61px;
+    line-height: 55px;
     color: #FFFFFF;
+    padding: 73px 0px 0 149px;
+    margin: 0;
   }
 
-  .section__sidebar_item{
+  .aside__protection_item{
     font-weight: 600;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 23px;
     color: #FFFFFF;
+    margin: 0px;
+    padding: 0px 0px 3px 149px;
   }
 
-  .section__sidebar_excerpt{
+  .aside__protection_image{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #E51937;
+    border-radius: 50%;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 68px 0 0 36px;
+  }
+
+  .aside__protection_excerpt{
+    font-weight: bold;
+    font-size: 14px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    float: left;
+    margin: 70px 0 0 7px;
   }
 
-  .section__sidebar_btn{
+  .aside__protection_btn{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #E51937;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    width: 160px;
+    height: 40px;
+    float: right;
+    margin: 59px 57px 0px 0;
 }
