@@ -491,16 +491,24 @@ body{
 
 .aside{
    display: inline-block;
-    width: 440px;
-    height: 857px;
+    width: 1440px;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+}
+
+.aside__conten{
     background: #e51937;
-    padding: 22px 0px;
+    width: 440px;
+    height: 900px;
+    float: left;
     margin: 0;
 }
 
 .aside__protection{
-   color: #FFFFFF;
-   padding: 30px 0px 59px;
+    width: 440px;
+    color: #FFFFFF;
+    padding: 50px 0px 59px;
 }
 
 .aside__protection_subject{
@@ -521,28 +529,29 @@ body{
     margin: 0;
   }
 
-  .aside__protection_stars{
-   padding: 0 56px 105px;
+  .aside__appraisal_stars{
+    width: 440px;
+    padding: 0 56px 91px;
     margin: 0;
 }
 
-  .aside__protection_text{
+  .aside__appraisal_protection{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
-    padding: 0 0 27px;
+    padding: 0 0 24px;
     margin: 0;
 }
 
-.protection__front{
+.aside__appraisal{
     width: 300px;
     height: 25px;
     display: inline-flex;
     padding: 0 0 12px;
 }
 
-.protection__front_stars{
+.appraisal__front_stars{
     font-weight: bold;
     font-size: 18px;
     line-height: 19px;
@@ -555,14 +564,7 @@ body{
     margin: 0px 1px;
 }
 
-.protection__side{
-    width: 300px;
-    height: 25px;
-    display: inline-flex;
-    padding: 0 0 12px;
-}
-
-.protection__side_stars{
+.appraisal__side_stars{
     font-weight: bold;
     font-size: 18px;
     line-height: 19px;
@@ -571,14 +573,7 @@ body{
     margin: 6px 88px 0 0;
 }
 
-.protection__pillar{
-    width: 300px;
-    height: 25px;
-    display: inline-flex;
-    padding: 0 0 12px;
-}
-
-.protection__pillar_stars{
+.appraisal__pillar_stars{
     font-weight: bold;
     font-size: 18px;
     line-height: 19px;
@@ -587,7 +582,7 @@ body{
     margin: 5px 34px 0 0;
 }
 
-.protection__stars_small{
+.appraisal__stars_small{
     font-weight: bold;
     font-size: 10px;
     line-height: 12px;
@@ -595,14 +590,7 @@ body{
     color: #FFFFFF;
 }
 
-.protection__driver{
-    width: 300px;
-    height: 25px;
-    display: inline-flex;
-    padding: 0 0 12px;
-}
-
-.protection__driver_stars{
+.appraisal__driver_stars{
     font-weight: bold;
     font-size: 18px;
     line-height: 19px;
@@ -611,13 +599,7 @@ body{
     margin: 5px 48px 0 0;
 }
 
-.protection__passenger{
-    width: 300px;
-    height: 25px;
-    display: inline-flex;
-}
-
-.protection__passenger_stars{
+.appraisal__passenger_stars{
     font-weight: bold;
     font-size: 18px;
     line-height: 19px;
@@ -627,6 +609,7 @@ body{
 }
 
 .aside__protection_info{
+    width: 440px;
     color: #FFFFFF;
 }
 
@@ -692,17 +675,25 @@ body{
     width: 160px;
     height: 40px;
     float: right;
-    margin: 7px 55px 0 0;
+    margin: 9px 55px 0 0;
 }
 
-.aside__protection_img{
-    background: url(img/Car.svg)  no-repeat;
-    width: 1049px;
-    height: 580px;
+.aside__conten_img{
+    width: 1000px;
+    height: 900px;
+    background: #FFFFFF; 
+    float: left;
     margin: 0;
 }
 
-.aside__protection_logo{
+.aside__protection_auto{
+    background: url(img/Car.svg) 0 75px no-repeat;
+    width: 1049px;
+    height: 670px;
+    margin: 0;
+}
+
+.aside__protection_model{
     font-weight: 600;
     font-size: 200px;
     line-height: 244px;
@@ -710,13 +701,7 @@ body{
     height: 200px;
     color: #E51937;
     opacity: 0.1;
-    margin: 97px 0 0 201px;
-}
-
-.aside__protection_car{
-    width: 1049px;
-    height: 540px;
-    margin: 0;
+    margin: 96px 0 0 186px;
 }
 
 .footer__image{
