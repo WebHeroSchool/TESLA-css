@@ -124,8 +124,7 @@ body{
 .section{
     background:url(img/Tesla-text.svg) 0px 0px no-repeat;
     width: 100%;
-    height: 729px;
-    margin: 0;
+    height: 731px;
  }
 
 .section__title{
@@ -164,14 +163,14 @@ body{
 
 .article{
 	display: flex;
-    margin: 7px 310px 26px;
+    margin: 7px 313px 26px;
 }
 
 .article__image_speed{
     background: url(img/Speed.svg) no-repeat;
     width: 52px;
     height: 39px;
-    margin: 15px 15px 0 8px;
+    margin: 15px 12px 0 3px;
 }
 
 .section__article_speed{
@@ -211,11 +210,11 @@ body{
     background: url(img/distance.svg) center no-repeat;
     width: 4%;
     height: 62px;
-    margin: 8px 10px 0 0;
+    margin: 8px 11px 0 0;
 }
 
 .siction__article_distance{
-    margin-right: 98px;
+    margin-right: 99px;
 }
 
 .article__distance{
@@ -224,18 +223,18 @@ body{
     line-height: 43px;
     color: #000000;
     width: 100%;
-    height: 41px;
-    margin: 3px 0 0;
+    height: 39px;
+    margin: 4px 0 0;
 }
 
 .article__text_span.additional{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px;
     color: #000000;
     width: 100%;
     height: 25px;
-    margin: 7px;
+    margin: 6px;
 }
 
 .article__text_small.additional{
@@ -251,7 +250,7 @@ body{
     background: url(img/test.svg) center no-repeat;
     width: 22px;
     height: 22px;
-    margin: 22px 0;
+    margin: 23px 1px 0;
 }
 
 .section__article_test{
@@ -262,7 +261,7 @@ body{
     text-transform: uppercase;
     width: 12%;
     color: #000000;
-    margin: 29px 37px 0 0;
+    margin: 28px 37px 0 0;
    }
 
 .article__text_btn{
@@ -282,7 +281,7 @@ body{
 .wraper__menu{
     display: flex;
     background: url(img/menu.svg) center no-repeat;
-    width: 32px;
+    width: 37px;
     height: 18px;
     margin: auto;
 }
@@ -291,7 +290,7 @@ body{
     background: url(img/tesla-model-s-cockpit.svg) 0 100% no-repeat;
     display: flex;
     width: 100%;
-    height: 936px;
+    height: 935px;
 }
 
 .wraper__header{
@@ -299,7 +298,7 @@ body{
     font-size: 70px;
     line-height: 85px;
     color: #e51937;
-    padding: 101px 80px;
+    padding: 99px 80px;
     margin: 0 494px 0 0;
     width: 24%;
 }
@@ -308,7 +307,7 @@ body{
     background: #e51937;
     width: 440px;
     height: 900px;
-    margin-top: 36px;
+    margin-top: 35px;
 }
 
 .wrper__conten{
@@ -320,16 +319,18 @@ body{
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
-    padding: 52px 0 10px 52px;
+    padding: 51px 0 14px 53px;
     margin: 0;
 }
 
 .wraper__text{
     font-weight: 500;
     font-size: 15px;
-    line-height: 19px;
+    line-height: 18px;
     color: #FFFFFF;
-    padding: 0 72px 0 52px;
+    width: 316px;
+    height: 206px;
+    padding: 0 52px;
     margin: 0;
 }
 
@@ -337,7 +338,7 @@ body{
     display: inline-block;
     width: 400px;
     padding: 0 0 0 45px;
-    margin-top: 1px;
+    margin: 0;
 }
 
 .wraper__image_dyuym{
@@ -354,7 +355,7 @@ body{
     font-size: 35px;
     line-height: 43px;
     color: #FFFFFF;
-    padding: 53px 206px 0 0;
+    padding: 51px 206px 0 0;
     float: right;
 }
 
@@ -423,7 +424,7 @@ body{
     font-size: 35px;
     line-height: 43px;
     color: #FFFFFF;
-    padding: 43px 0 0 24px;
+    padding: 41px 0 0 24px;
 }
 
 .wraper__items_litrov{
@@ -458,7 +459,7 @@ body{
     float: left;
     width: 22px;
     height: 22px;
-    margin: 176px 0 0 51px;
+    margin: 177px 9px 0 49px;
 }
 
 .wraper__info_excerpt{
@@ -469,7 +470,7 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     float: left;
-    margin: 180px 0px 0px 7px;
+    margin: 182px 0 0;
 }
 
 .wraper__btn{
@@ -485,101 +486,105 @@ body{
     width: 160px;
     height: 40px;
     float: right;
-    margin: 168px 43px 0 0;
+    margin: 170px 43px 0 0;
 }
 
-.aside__protection_car{
-    background: url(img/Car.svg) 344px 172px no-repeat;
-    width: 100%;
-    height: 850px;
-    float: right;
-}
-
-.aside__protection_logo{
-    font-weight: 600;
-    font-size: 200px;
-    line-height: 244px;
-    color: #E51937;
-    opacity: 0.1;
-    float: right;
-    margin: 98px 0 0;
+.aside{
+   display: inline-block;
+    width: 440px;
+    height: 857px;
+    background: #e51937;
+    padding: 22px 0px;
+    margin: 0;
 }
 
 .aside__protection{
-    background: #e51937;
-    width: 440px;
-    height: 900px;
-    margin: 0;
+   color: #FFFFFF;
+   padding: 30px 0px 59px;
 }
 
 .aside__protection_subject{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    width: 316px;
-    height: 74px;
     color: #FFFFFF;
-    padding: 51px 56px 12px;
+    padding: 0 56px 13px;
     margin: 0;
 }
 
 .aside__protection_sidebar{
     font-weight: 500;
     font-size: 15px;
-    line-height: 19px;
-    width: 316px;
-    height: 134px;
+    line-height: 18px;
     color: #FFFFFF;
-    padding: 0 56px 49px;
+    padding: 0 56px;
     margin: 0;
   }
+
+  .aside__protection_stars{
+   padding: 0 56px 105px;
+    margin: 0;
+}
 
   .aside__protection_text{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
-    padding: 0 56px 27px;
+    padding: 0 0 27px;
     margin: 0;
 }
 
-.aside__protection_stars{
+.protection__front{
+    width: 300px;
+    height: 25px;
+    display: inline-flex;
+    padding: 0 0 12px;
+}
+
+.protection__front_stars{
     font-weight: bold;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 70%;
-    height: 174px;
-    padding: 0 0 103px 56px;
-    margin: 0;
+    margin: 5px 60px 0 0;
 }
 
-.stars{
-    float: right;
-    width: 51%;
-    height: 171px;
-    line-height: 37px;
-    font-size: 13px;
+.protection__star{
+    margin: 0px 1px;
 }
 
-.protection__info{
-    display: grid;
-    justify-content: space-between;
-    width: 42%;
-    height: 183px;
-    padding: 5px 0;
-    margin: 0;
+.protection__side{
+    width: 300px;
+    height: 25px;
+    display: inline-flex;
+    padding: 0 0 12px;
 }
 
-.protection__stars{
+.protection__side_stars{
     font-weight: bold;
     font-size: 18px;
-    line-height: 16px;
+    line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding: 0;
-    margin: 0;
+    margin: 6px 88px 0 0;
+}
+
+.protection__pillar{
+    width: 300px;
+    height: 25px;
+    display: inline-flex;
+    padding: 0 0 12px;
+}
+
+.protection__pillar_stars{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 5px 34px 0 0;
 }
 
 .protection__stars_small{
@@ -587,6 +592,41 @@ body{
     font-size: 10px;
     line-height: 12px;
     text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.protection__driver{
+    width: 300px;
+    height: 25px;
+    display: inline-flex;
+    padding: 0 0 12px;
+}
+
+.protection__driver_stars{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 5px 48px 0 0;
+}
+
+.protection__passenger{
+    width: 300px;
+    height: 25px;
+    display: inline-flex;
+}
+
+.protection__passenger_stars{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 5px 41px 0 0;
+}
+
+.aside__protection_info{
     color: #FFFFFF;
 }
 
@@ -602,7 +642,6 @@ body{
     font-weight: 600;
     font-size: 50px;
     line-height: 55px;
-    color: #FFFFFF;
     margin: 0;
   }
 
@@ -610,7 +649,6 @@ body{
     font-weight: 600;
     font-size: 25px;
     line-height: 23px;
-    color: #FFFFFF;
     margin: 0;
     padding: 0 0 55px;
   }
@@ -624,11 +662,9 @@ body{
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-    color: #FFFFFF;
     float: left;
     width: 22px;
     height: 22px;
-    padding: 0;
     margin: 17px 0 0 38px;
   }
 
@@ -638,9 +674,8 @@ body{
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
     float: left;
-    padding: 21px 8px 0;
+    padding: 20px 8px 0;
     margin: 0;
   }
 
@@ -657,7 +692,31 @@ body{
     width: 160px;
     height: 40px;
     float: right;
-    margin: 9px 55px 0 0;
+    margin: 7px 55px 0 0;
+}
+
+.aside__protection_img{
+    background: url(img/Car.svg)  no-repeat;
+    width: 1049px;
+    height: 580px;
+    margin: 0;
+}
+
+.aside__protection_logo{
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 244px;
+    width: 821px;
+    height: 200px;
+    color: #E51937;
+    opacity: 0.1;
+    margin: 97px 0 0 201px;
+}
+
+.aside__protection_car{
+    width: 1049px;
+    height: 540px;
+    margin: 0;
 }
 
 .footer__image{
