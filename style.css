@@ -13,7 +13,7 @@ body{
     width: 100%;
 }
 
-.header__logo{
+.logo{
     background: url(img/Tesla-logo.svg) no-repeat;
     background-position: center;
     width: 166px;
@@ -557,11 +557,7 @@ body{
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 5px 60px 0 0;
-}
-
-.protection__star{
-    margin: 0px 1px;
+    margin: 5px 62px 0 0;
 }
 
 .appraisal__side_stars{
@@ -570,7 +566,7 @@ body{
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 6px 88px 0 0;
+    margin: 6px 86px 0 0;
 }
 
 .appraisal__pillar_stars{
@@ -579,12 +575,12 @@ body{
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 5px 34px 0 0;
+    margin: 5px 31px 0 0;
 }
 
 .appraisal__stars_small{
     font-weight: bold;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 12px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -596,7 +592,7 @@ body{
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 5px 48px 0 0;
+    margin: 5px 49px 0 0;
 }
 
 .appraisal__passenger_stars{
@@ -605,7 +601,7 @@ body{
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 5px 41px 0 0;
+    margin: 5px 44px 0 0;
 }
 
 .aside__protection_info{
@@ -704,7 +700,9 @@ body{
     margin: 96px 0 0 186px;
 }
 
-.footer__image{
+.footer{
+    width: 94px;
+    height: 38px;
     padding: 0 19px;
     float: right;
 }
