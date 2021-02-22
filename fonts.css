@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-Regular/Montserrat-Regular.otf) format("truetype"),
-       url("fonts/Montserrat-Regular/Montserrat-Regular.ttf") format("opentype"),
+  src: url(fonts/Montserrat-Regular/Montserrat-Regular.otf) format("opentype"),
+       url("fonts/Montserrat-Regular/Montserrat-Regular.ttf") format("truetype"),
        url("fonts/Montserrat-Regular/Montserrat-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("fonts/Montserrat-Medium/Montserrat-Medium.otf") format("truetype"),
-       url("fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("opentype"),
+  src: url("fonts/Montserrat-Medium/Montserrat-Medium.otf") format("opentype"),
+       url("fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype"),
        url("fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff");
   font-style: normal;
   font-weight: 500;
@@ -18,17 +18,17 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-SemiBold/Montserrat-SemiBold.otf) format("truetype"),
-       url("fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("opentype"),
-       url("fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff");
+  src: url(fonts/Montserrat-SemiBold/Montserrat-SemiBold.otf) format("opentype"),
+       url("fonts/Montserrat-SemiBold/Montserrat-SemiBold.ttf") format("truetype"),
+       url("fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff") format("woff");
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("fonts/montserrat_bold/montserrat_bold.otf") format("truetype"),
-       url("fonts/montserrat_bold/montserrat_bold.ttf") format("opentype"), 
+  src: url("fonts/montserrat_bold/montserrat_bold.otf") format("opentype"),
+       url("fonts/montserrat_bold/montserrat_bold.ttf") format("truetype"), 
        url("fonts/montserrat_bold/montserrat_bold.woff") format("woff");
   font-style: normal;
   font-weight: bold;
