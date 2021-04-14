@@ -65,6 +65,7 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
+  transition-duration: .25s;
 }
 
 .header__link {
@@ -173,10 +174,6 @@ body {
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
-  transition-duration: .25s;
-}
-
-.menu__item {
   transition-duration: .25s;
 }
 
